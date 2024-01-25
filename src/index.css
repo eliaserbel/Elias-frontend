@@ -1,0 +1,177 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap");
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #1e1c1f;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+/* Header */
+header {
+  background: #309975;
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Pages */
+.pages {
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.kitespots {
+  position: relative;
+  justify-content: center;
+}
+
+.kitespot-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px 200px;
+  padding: 20px;
+  position: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.kitespot-details h4 {
+  margin: 0 0 10px 0;
+  margin-top: 10px;
+  font-size: 1.5em;
+  color: #309975;
+}
+.kitespot-details p {
+  margin: 5px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.delete-button {
+  padding: 10px;
+  position: relative;
+  margin-left: 800px;
+  background-color: #1aac83;
+  color: #1e1c1f;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* new kitesurf form */
+
+.create {
+  color: #ffffff;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+label,
+input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: red;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+input.error {
+  border: 1px solid var(--error);
+}
+
+/* Desktop Nav */
+nav,
+.nav-links {
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+}
+
+nav {
+  align-items: center;
+  height: 14vh;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: #122620;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(185, 185, 185);
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+/* Map */
+.leaflet-container {
+  width: 40%;
+  height: 40vh;
+}
+
+/* Actual Location */
+.mylocation-details {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mylocation-details h2 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.mylocation-details p {
+  color: #ffffff;
+  margin: 0;
+}
+
+/* Error Message */
